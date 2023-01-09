@@ -35,7 +35,7 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="relative">
-              <div className="md:before:content-evolvetext ml-[-8px] before:absolute before:-left-20 before:-top-20 before:z-[-1]">
+              <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-optimumtext">
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
@@ -82,9 +82,9 @@ const Home = ({ setSelectedPage }: Props) => {
         <div className="mt-6 h-[150px] w-full bg-primary-100 py-10">
           <div className="mx-auto w-5/6">
             <div className="flex w-3/5 items-center justify-between gap-8 md:mt-3">
-              <img alt="redbull-sponsor" src={SponsorON} />
-              <img alt="forbes-sponsor" src={SponsorTechnoGym} />
-              <img alt="fortune-sponsor" src={SponsorMuscleTech} />
+              <img alt="optimum-nutrition-sponsor" src={SponsorON} />
+              <img alt="techno-gym-sponsor" src={SponsorTechnoGym} />
+              <img alt="muscle-tech-sponsor" src={SponsorMuscleTech} />
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ module.exports = {
         montserrat: ["Montserrat", "sans-serif"]
       },
       content: {
-        optimumtext: "url('./assets/optimumText.png')",
+        optimumtext: "url('@/assets/optimumText.png')",
       }
     },
     screens: {

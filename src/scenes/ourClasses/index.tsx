@@ -13,33 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our weight training classes are structured to help individuals improve their strength, endurance, and overall fitness levels using various weightlifting techniques and are led by qualified instructors or personal trainers.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Our Yoga classes offer a holistic and rejuvenating experience, focusing on the integration of mind, body, and spirit. Led by certified yoga instructors, these classes provide a sanctuary for individuals to cultivate flexibility, strength, balance, and inner peace through the practice of yoga postures, breathing techniques, and mindfulness.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our AB Core classes are specialized to focus on strengthening and toning the abdominal muscles, including the core muscles of the abdomen, lower back, and hips and are led by qualified instructors or personal trainers who specialize in core training.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our Adventure classes are exhilarating and unique that take participants out of the traditional gym environment and into the great outdoors. These classes provide an opportunity to engage in thrilling activities and explore nature while getting a full-body workout.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "Our Fitness classes are dynamic and inclusive group workouts designed to improve overall fitness levels and provide a fun and motivating exercise experience. Led by experienced instructors, these classes cater to individuals of all fitness levels and offer a variety of formats to keep participants engaged and challenged.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our Training classes are structured and comprehensive sessions designed to help individuals achieve specific fitness goals and enhance their overall performance. Led by skilled trainers, these classes provide specialized instruction and personalized guidance to maximize results and optimize training effectiveness.",
     image: image6,
   },
 ];

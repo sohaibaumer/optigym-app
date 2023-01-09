@@ -30,7 +30,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}
       >
-        {/* HEADER */}
         <motion.div
           className="md:w-3/5"
           initial="hidden"
@@ -144,9 +143,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
+            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-optimumtext">
               <img
-                className="w-full rounded-md"
+                className="w-full"
                 alt="contact-us-page-graphic"
                 src={ContactUsPageGraphic}
               />
