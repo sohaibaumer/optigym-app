@@ -81,8 +81,8 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
-        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
-          <ul className="w-[2800px] whitespace-nowrap">
+        <div className="mx-auto mt-10 w-5/6 overflow-x-scroll">
+          <ul className="flex w-[252vw] gap-[1vw] md:w-[165vw] md:gap-[2vw]">
             {classes.map((item: ClassType, index) => (
               <Class
                 key={`${item.name}-${index}`}
