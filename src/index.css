@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +10,31 @@ body,
 .app {
   height: 100%;
   width: 100%;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   @apply text-gray-500;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 100vw;
+  margin: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border: 2px solid #f0f0f0;
+  border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
 }
